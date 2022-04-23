@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    var scene: SKScene {
+        let scene = GameScene()
+        scene.size = CGSize(width: 300, height: 300)
+        scene.scaleMode = .fill
+        return scene
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SpriteView(scene: scene)
+            .frame(width: 300, height: 300, alignment: .center)
+            .ignoresSafeArea()
     }
 }
 

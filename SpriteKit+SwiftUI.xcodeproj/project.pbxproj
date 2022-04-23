@@ -11,6 +11,7 @@
 		BE04928128137D9A00373C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04928028137D9A00373C64 /* ContentView.swift */; };
 		BE04928328137D9B00373C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04928228137D9B00373C64 /* Assets.xcassets */; };
 		BE04928628137D9B00373C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04928528137D9B00373C64 /* Preview Assets.xcassets */; };
+		BE04928D28137DB200373C64 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04928C28137DB200373C64 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE04928028137D9A00373C64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE04928228137D9B00373C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE04928528137D9B00373C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE04928C28137DB200373C64 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				BE04927E28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift */,
+				BE04928C28137DB200373C64 /* GameScene.swift */,
 				BE04928028137D9A00373C64 /* ContentView.swift */,
 				BE04928228137D9B00373C64 /* Assets.xcassets */,
 				BE04928428137D9B00373C64 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE04928D28137DB200373C64 /* GameScene.swift in Sources */,
 				BE04928128137D9A00373C64 /* ContentView.swift in Sources */,
 				BE04927F28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift in Sources */,
 			);
