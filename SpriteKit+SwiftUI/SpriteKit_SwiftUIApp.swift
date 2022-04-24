@@ -11,7 +11,7 @@ import SwiftUI
 struct SpriteKit_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SpriteKiteNodeView()
         }
     }
 }

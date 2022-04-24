@@ -8,7 +8,7 @@
 import SwiftUI
 import SpriteKit
 
-struct ContentView: View {
+struct SpriteKiteNodeView: View {
     var scene: SKScene {
         let scene = GameScene()
         scene.size = CGSize(width: 300, height: 300)
@@ -25,6 +25,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SpriteKiteNodeView()
     }
 }

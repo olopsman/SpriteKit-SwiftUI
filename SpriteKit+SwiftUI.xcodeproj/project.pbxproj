@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		BE04927F28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04927E28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift */; };
-		BE04928128137D9A00373C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04928028137D9A00373C64 /* ContentView.swift */; };
+		BE04928128137D9A00373C64 /* SpriteKiteNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04928028137D9A00373C64 /* SpriteKiteNodeView.swift */; };
 		BE04928328137D9B00373C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04928228137D9B00373C64 /* Assets.xcassets */; };
 		BE04928628137D9B00373C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE04928528137D9B00373C64 /* Preview Assets.xcassets */; };
 		BE04928D28137DB200373C64 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE04928C28137DB200373C64 /* GameScene.swift */; };
+		BE0865402814D707008C941F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08653F2814D707008C941F /* HomeView.swift */; };
+		BE0865422814DA00008C941F /* GameImageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0865412814DA00008C941F /* GameImageScene.swift */; };
+		BE0865442814DAD4008C941F /* SpriteKitImageNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0865432814DAD4008C941F /* SpriteKitImageNodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE04927B28137D9A00373C64 /* SpriteKit+SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit+SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE04927E28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_SwiftUIApp.swift; sourceTree = "<group>"; };
-		BE04928028137D9A00373C64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE04928028137D9A00373C64 /* SpriteKiteNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKiteNodeView.swift; sourceTree = "<group>"; };
 		BE04928228137D9B00373C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE04928528137D9B00373C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE04928C28137DB200373C64 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BE08653F2814D707008C941F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE0865412814DA00008C941F /* GameImageScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImageScene.swift; sourceTree = "<group>"; };
+		BE0865432814DAD4008C941F /* SpriteKitImageNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitImageNodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				BE04927E28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift */,
 				BE04928C28137DB200373C64 /* GameScene.swift */,
-				BE04928028137D9A00373C64 /* ContentView.swift */,
+				BE0865412814DA00008C941F /* GameImageScene.swift */,
+				BE04928028137D9A00373C64 /* SpriteKiteNodeView.swift */,
+				BE0865432814DAD4008C941F /* SpriteKitImageNodeView.swift */,
+				BE08653F2814D707008C941F /* HomeView.swift */,
 				BE04928228137D9B00373C64 /* Assets.xcassets */,
 				BE04928428137D9B00373C64 /* Preview Content */,
 			);
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0865442814DAD4008C941F /* SpriteKitImageNodeView.swift in Sources */,
 				BE04928D28137DB200373C64 /* GameScene.swift in Sources */,
-				BE04928128137D9A00373C64 /* ContentView.swift in Sources */,
+				BE0865402814D707008C941F /* HomeView.swift in Sources */,
+				BE0865422814DA00008C941F /* GameImageScene.swift in Sources */,
+				BE04928128137D9A00373C64 /* SpriteKiteNodeView.swift in Sources */,
 				BE04927F28137D9A00373C64 /* SpriteKit_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
